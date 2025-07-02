@@ -1,0 +1,105 @@
+.partner {
+    background: url(/src/assets/partners.png);
+}
+
+.partner h1 {
+    letter-spacing: 3px;
+}
+.uline{
+    border: 2px solid #106ba8;
+    border-radius: 10px;
+    width: 60px;
+}
+.part{
+    object-fit:contain;
+    width: 50%; 
+} 
+.partcover:nth-child(4) .part {
+    width: 70%; /* Make the 7th image smaller */
+}
+.partcover:nth-child(8) .part {
+    width: 70%; /* Make the 7th image smaller */
+}
+.partcover:nth-child(2) .part {
+    width: 70%; /* Make the 7th image smaller */
+}
+.partcover:nth-child(2) .part:hover {
+    width: 75%; /* Make the 7th image smaller */
+}
+.partcover:nth-child(12) .part {
+    width: 30%; /* Make the 7th image smaller */
+}
+.partcover:nth-child(12) .part:hover {
+    width: 35%; /* Make the 7th image smaller */
+}
+.partcover{
+    position: relative;
+    overflow: hidden;  
+    border: 8px solid white;
+    border-radius: 30px;
+    background-color: hsl(203, 39%, 78%);
+    height: 170px;
+}
+.part:hover{
+    transform: scale(1.1); 
+}
+.sticker {
+    position: absolute;
+    top:65px;
+    right: -20px;
+    background-color: #ff624d;
+    overflow: hidden;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transform: rotate(45deg); /* Tilt by 15 degrees */
+    transform-origin: top right;
+}
+.partcover:hover{
+    border-radius: 0%;
+    transition: 0.5s;
+    background-color: rgb(126, 151, 163);
+    transition: 0.7s;
+}
+.formlist{
+    list-style-type:"➔  ";
+}
+.partform input{
+    width: 100%;
+    margin-bottom:15px;
+}
+.partform input::placeholder{
+    text-transform: capitalize;
+    opacity: 90%;
+    font-size: 14px;
+}
+#partnershipReason{
+    font-size: 15px;
+}
+#partnershipNature {
+    font-size: 15px;  
+}
+.partform{
+    background-color: #106ba8;
+}
+@media (max-width: 640px){
+    .part{
+        width:80% ;
+    }
+    .partner p{
+        font-size:15px !important ;
+    }
+    .partner h1{
+        font-size:20px !important ;
+        letter-spacing: 3px;
+    }
+    .partcover:nth-child(12) .part {
+        width: 50%; /* Make the 7th image smaller */
+    }
+    .partcover:nth-child(12) .part:hover {
+        width: 55%; /* Make the 7th image smaller */
+    }
+}
