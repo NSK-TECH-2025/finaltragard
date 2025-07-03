@@ -2,10 +2,9 @@ import React, { useEffect } from 'react'
 import './partners.css';
 import 'animate.css';
 import WOW from 'wow.js';
-
 import amazon from '../assets/Amazon_Logo.png';
 import flipkart from '../assets/Flipkart_Logo.png';
-import shopify from '../assets/Shopify_black_logo.png';
+import shopify from '../assets/Shopify_Black_logo.png';
 import HR1 from '../assets/HROne_Logo.jpg'; 
 import amazonship from '../assets/amazonship.png';
 import bonton from '../assets/bonton.png';
