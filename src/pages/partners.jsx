@@ -3,21 +3,21 @@ import './partners.css';
 import 'animate.css';
 import WOW from 'wow.js';
 
-import amazon from '../assets/Amazon Logo.png';
-import flipkart from '../assets/Flipkart Logo.png';
-import shopify from '../assets/Shopify black logo.png';
-import HR1 from '../assets/HROne Logo.jpg'; 
+import amazon from '../assets/Amazon_Logo.png';
+import flipkart from '../assets/Flipkart_Logo.png';
+import shopify from '../assets/Shopify_black_logo.png';
+import HR1 from '../assets/HROne_Logo.jpg'; 
 import amazonship from '../assets/amazonship.png';
 import bonton from '../assets/bonton.png';
 import ekart from '../assets/ekart.png';
 import redbus from '../assets/redbus.png';
 import mmtrip from '../assets/mmtrip.png';
 import petpooja from '../assets/petpooja.png';
-import zoho from '../assets/Zoho Logo.png';
-import shipway from '../assets/Shipway Logo.png';
-import razorpay from '../assets/Razorpay Logo.png';
-import Gbox from '../assets/Gallabox Logo.png';  
-import vyapar from '../assets/Vyapar Logo.png';   
+import zoho from '../assets/Zoho_Logo.png';
+import shipway from '../assets/Shipway_Logo.png';
+import razorpay from '../assets/Razorpay_Logo.png';
+import Gbox from '../assets/Gallabox_Logo.png';  
+import vyapar from '../assets/Vyapar_Logo.png';   
 const Partners = () => {
 
   useEffect(() => {
